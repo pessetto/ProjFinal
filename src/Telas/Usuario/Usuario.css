@@ -1,0 +1,58 @@
+.usuario-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .usuario-container h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  .campo label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+.button {
+    padding: 10px 15px;
+    background-color: #8ba8d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    padding: 10px 15px;
+    background-color: #8ba8d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+
+.button:hover{
+  font-size: 17px;
+}
+
+.button2:hover{
+  font-size: 17px;
+}
+  

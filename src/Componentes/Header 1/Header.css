@@ -1,0 +1,19 @@
+.header {
+    background-color: #8BA8D4; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 250px;
+    height: auto;
+    margin-left: 550px;
+    }
+  

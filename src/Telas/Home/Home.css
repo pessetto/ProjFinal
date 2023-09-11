@@ -1,0 +1,44 @@
+.homeContainer {
+    background-color: #ffffff; /* Cor de fundo geral */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  
+  .buttonBox {
+    background-color: #8BA8D4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+    width: 300px;
+    margin: 20px auto;
+}
+  
+  .enterButton,
+  .registerButton {
+    background-color: #ffffff;
+    color: #8BA8D4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+    width: 100%;
+  }
+
+  
+  .enterButton:hover,
+  .registerButton:hover {
+    background-color: #8BA8D4;
+    color: #ffffff;
+  }
+  
+  .h1{
+    justify-content: center;
+    text-align: center;
+    color: #8BA8D4;
+    font-size: 50px;
+  }

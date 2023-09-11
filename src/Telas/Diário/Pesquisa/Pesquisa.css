@@ -1,0 +1,43 @@
+.pesquisa-container {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 550px;
+  background-color: #adc3e4;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 130px;
+  border-radius: 9px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  justify-items: center;
+}
+
+.select-container {
+  display: flex;
+  gap: 10px;
+}
+
+select {
+  background-color: #adc3e4;
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #8ba8d4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7492c0;
+}
