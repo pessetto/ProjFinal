@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Header from '../../Componentes/Header 1/Header'; // Certifique-se de ajustar o caminho para o componente Header
+import Header from '../../Componentes/Header 1/Header'; 
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -18,13 +18,14 @@ const Login = () => {
 
   return (
    <>
+
     <Header />
     <div className='all'>
     <h1 className="h1">DIGITE SEU LOGIN</h1>
       <div className="login-page">
       <div className="login-container">
         <div className="input-container">
-          <label>E-mail</label>
+          <label>E-MAIL</label>
           <input
             type="text"
             value={username}
@@ -32,7 +33,7 @@ const Login = () => {
           />
         </div>
         <div className="input-container">
-          <label>Senha</label>
+          <label>SENHA</label>
           <input
             type="password"
             value={password}
@@ -41,7 +42,7 @@ const Login = () => {
         </div>
         <button className="login-button" onClick={BemVindo
         }>
-          Entrar
+          ENTRAR
         </button>
       </div>
       <text className='voltar' onClick={goBack}>VOLTAR</text>
